@@ -12,6 +12,7 @@ export const CONFIG: Config = {
     BASE_DIR_RES: "",
     logger: new Log("default"),
     delay: PkgConfig.delay,
+    readType: PkgConfig.readType
 };
 
 export async function init(projectId?: string) {
