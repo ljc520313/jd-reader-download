@@ -1,4 +1,5 @@
-export const BOOKS_ROOT_DIR = "/books/";
+export const BASE_DIR = "/jdreader";
+export const BOOKS_ROOT_DIR = `${BASE_DIR}/books/`;
 function getJSON(url) {
     return fetch(url, {
         method: "GET"
@@ -6,7 +7,7 @@ function getJSON(url) {
 }
 
 export function getBooksDir() {
-    const key = `/books/list`;
+    const key = `${BASE_DIR}/books/list`;
     let promise = null
     try {
         const data = JSON.parse(localStorage.getItem(key) || "[]");
@@ -17,9 +18,9 @@ export function getBooksDir() {
         console.warn("getBooksDir: ", ex);
     }
     if (!promise) {
-        promise = getJSON("/api/books");
+        promise = getJSON(`${BASE_DIR}/api/books`);
     }
-    getJSON("/api/books").then(res => {
+    getJSON(`${BASE_DIR}/api/books`).then(res => {
         localStorage.setItem(key, JSON.stringify(res));
     });
     return promise;
@@ -30,7 +31,7 @@ export function getBooksDir() {
  * @returns {{"bookInfo": {"author": string,"bookId": number,"bookName": string,"bookType": number,"bookUrl": string,"readType": number,"readTypeMeaning": string,"totalPage": number},"id": string,"name": string}}
  */
 export function getLocalBookInfo(id) {
-    const books = JSON.parse(localStorage.getItem("/books/list") || "[]");
+    const books = JSON.parse(localStorage.getItem(`${BASE_DIR}/books/list`) || "[]");
     return books.filter(b => b.id === id)[0];
 }
 
@@ -70,7 +71,7 @@ export function getRecentBooks(count) {
  */
 export function getBooksProgress() {
     try {
-        return JSON.parse(localStorage.getItem("/books/progress") || "[]");
+        return JSON.parse(localStorage.getItem(`${BASE_DIR}/books/progress`) || "[]");
     } catch (ex) {
         console.warn("getBooksProgress: ", ex);
         return [];
@@ -82,5 +83,5 @@ export function getBooksProgress() {
  * @returns {void}
  */
 export function updateBooksProgress(progressData) {
-    localStorage.setItem("/books/progress", JSON.stringify(progressData));
+    localStorage.setItem(`${BASE_DIR}/books/progress`, JSON.stringify(progressData));
 }

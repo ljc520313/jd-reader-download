@@ -1,13 +1,13 @@
 module.exports = {
-    publicPath: "/reader",
+    publicPath: "/jdreader",
     devServer: {
         proxy: {
             '/api': {
-                target: 'http://localhost:8002/',
+                target: 'http://localhost:20001/',
                 changeOrigin: true
             },
             '/books': {
-                target: 'http://localhost:8002',
+                target: 'http://localhost:20001',
                 changeOrigin: true
             }
         }

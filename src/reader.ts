@@ -3,18 +3,18 @@ import fs from "fs";
 import path from "path";
 import { BookInfo } from "./lib/types";
 
+const BASE_DIR = "/jdreader";
 const app = express();
-const PORT: Number = 8002;
+const PORT: Number = parseInt(process.env.PORT) || 20001;
 
-app.use("/books", express.static("./books/"));
-app.use("/reader", express.static("./reader/dist/"));
-app.use("/vendor", express.static("./reader/dist/vendor"));
+app.use(`${BASE_DIR}`, express.static("./reader/dist/"));
+app.use(`${BASE_DIR}/books`, express.static("./books/"));
 
-app.get("/reader/book/:id", (req, res) => {
+app.get(`${BASE_DIR}/book/:id`, (req, res) => {
     res.sendFile(path.join(process.cwd(), "/reader/dist/index.html"));
 });
-app.get("/api/books", (req, res) => {
-    
+app.get(`${BASE_DIR}/api/books`, (req, res) => {
+
     const books = fs
         .readdirSync("./books", {
             encoding: "utf8"

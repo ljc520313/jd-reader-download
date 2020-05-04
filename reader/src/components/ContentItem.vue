@@ -32,7 +32,7 @@ export default {
         .substring(startIndex + "<body>".length, endIndex)
         .replace(
           /https?:\/\/img30\.360buyimg\.com\//g,
-          `/books/${this.bookId}/res/`
+          `${BOOKS_ROOT_DIR}/${this.bookId}/res/`
         );
       return html;
     }

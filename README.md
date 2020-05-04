@@ -13,7 +13,7 @@
 
 ## 阅读
 
-1. 执行 `npm run reader`, 然后使用浏览器访问 `http://localhost:8002/reader/` 即可. (阅读的前提是 `/books` 目录下有下载好的书籍), 效果如下: 
+1. 执行 `npm run reader`, 然后使用浏览器访问 `http://localhost:20001/jdreader/` 即可. (阅读的前提是 `/books` 目录下有下载好的书籍), 效果如下: 
 
 ![reader ui](./res/reader-ui.png)
 
