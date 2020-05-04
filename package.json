@@ -1,0 +1,40 @@
+{
+  "name": "jd-reader-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "download": "tsc && node dist/src/downloader.js",
+    "reader": "tsc && node dist/src/reader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanwei43/epubit-ebook-download.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanwei43/epubit-ebook-download/issues"
+  },
+  "homepage": "https://github.com/alanwei43/epubit-ebook-download#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^10.12.18",
+    "ts-node": "^7.0.1",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "config": {
+    "delay": 3,
+    "cookie": "bg_color=gray; ",
+    "bookIds": [
+      "30597590"
+    ]
+  }
+}

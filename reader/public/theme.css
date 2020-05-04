@@ -1,0 +1,990 @@
+
+/* 版权信息页标题 */
+h1.copyrightpage-title { 
+
+	font-weight: normal; 
+	text-align: center; 
+	border-style: none none dotted none;
+	border-width: 1.5px;
+	margin:1em 0em 1em 0em;
+}
+
+/* 版权信息页正文 */
+p.copyright-bodytext {
+
+	margin:2em;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+/* 版权部分加粗 */
+span.copyright-bodytext-jiacu {
+
+	font-weight:bold;
+}
+/* 首字大 */
+span.shouzi {
+	float: left;
+	font-size: 2em;
+	duokan-drop-caps-style: duokan-two-line-caps;
+    margin-bottom: -0.25em;
+}
+
+
+
+/* 行中图-公式 */
+img.hangz-illustrations {
+font-size: 16px;
+height: 1em;
+vertical-align: bottom;
+margin-left: -0.1em;
+margin-right: -0.1em;
+}
+
+
+
+/* 封面图像居中 */
+img.img-height100{
+	height:100%;
+}
+/* 封面框图像居中 */
+div.img-center{
+	text-align:center;
+	margin:0em 0em 0em 0em;
+	padding:0em;
+}
+/* 框图像居中40 */
+div.img40{
+	text-align:center;
+	margin:0em auto 0.5em auto;
+	padding:0em;
+	width:40%;
+}
+/* 框图像居中60 */
+div.img50{
+	text-align:center;
+	margin:0.5em auto 0.5em auto;
+	padding:0em;
+	width:60%;
+}
+/* 框图像居中100 */
+div.img100{
+	text-align:center;
+	margin:0.5em auto 0.5em auto;
+	padding:0em;
+	width:100%;
+}
+table.juzhong{
+	text-align:center;
+	width: 80%;
+	margin:1em 2em 1em 4em;
+}
+td.seal-pic {
+	width: 100%;
+}
+
+td.seal-name {
+	vertical-align: top;
+	width: 50%;
+}
+/* 目录标题 */
+h1.contents-title {
+
+	font-weight: normal;
+	border-style: none none dotted none;
+	border-width: 1.5px;
+	margin:1em 0em 1em 0em;
+	text-align:left;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+
+/* 目录页标题-一级 */
+div.contents-chapter-1 {
+
+	font-weight: bold;
+	margin-left:0.5em;
+}
+/* 目录页标题-二级 */
+div.contents-chapter-2 {
+
+	list-style-type:none;
+	font-weight: normal;
+	margin-left:2em;
+}
+/* 目录页标题-三级 */
+div.contents-chapter-3 {
+
+	list-style-type:none;
+	font-weight: normal;
+	margin-left:3em;
+}
+/* 目录期居右 */
+caption.juyou {
+	text-align:right;
+}
+/* 目录期居右 */
+p.juzuo {
+	text-align:left;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+/* 目录表格 */
+table.mulu {
+	cellpadding:0px;
+	cellspacing:0px;
+	width:100%;
+}
+/* 目录单元格 */
+td.zuozhe {
+	text-align: right;
+}
+/* 目录单元格背景 */
+td.bg {
+	text-align: center;
+	background-color: #04a4d9;
+}
+/* 一级标题 */
+h1.chapter-one{
+
+	margin-top:2em;
+	font-weight: normal; 
+	text-align: center; 
+}
+
+
+
+
+/* 二级标题 */
+h2.chapter-two{
+
+	margin-top:2em;
+	text-align:center;
+	font-weight: normal;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+
+
+
+
+
+
+
+
+/* 三级标题 */
+h3.chapter-three{
+
+	margin-top:2em;
+	text-align:center;
+	font-weight: normal;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+
+
+/* 三级标题-1 */
+h3.chapter-three-1{
+	margin-top:2em;
+	font-weight: normal;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+
+
+/* 四级标题 */
+h4.chapter-four{
+	font-weight: normal;
+	margin-top:2em;
+	text-align:left;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+}
+
+
+
+
+
+
+/* 作者名 */
+p.autuor {
+
+	margin-top:0.3em;
+	margin-bottom:2em;
+	text-align:center;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+
+/* 作者名-1 */
+p.autuor-1 {
+
+	margin-top:0.3em;
+	margin-bottom:1em;
+	text-align:center;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+
+
+
+/* 栏目书眉 */
+span.shumei {
+
+	text-align:right;
+	margin-bottom: -0.25em;
+	background:#c5c5c5;
+	
+}
+/* 栏目书眉2 */
+p.shumei2 {
+
+	text-align:right;
+	margin-bottom: -0.25em;
+}
+/* 双蓝线 */
+div.doubleline {
+	border-bottom:0.2em #c5c5c5 double;
+	text-align:right;
+	width:100%;
+	margin-right:0em;
+	
+}
+
+/* 作者前符号 */
+img.aut {
+    width: 0.8em;
+}
+
+
+
+
+/* 标题前图片 */
+img.aut-1 {
+    width: 1.2em;
+}
+
+
+/* 标题前图片 */
+img.aut1-4 {
+    width: 1.4em;
+}
+
+/* 标题前图片 */
+img.aut1-6 {
+    width: 1.6em;
+	vertical-align: middle;
+}
+
+/* 标题前图片 */
+img.aut1-3 {
+    width: 1.3em;
+}
+
+/* 标题前图片 */
+img.aut1-8 {
+    width: 1.8em;
+}
+
+
+
+/* 标题前图片 */
+img.aut2-1 {
+    width: 2.1em;
+}
+
+
+/* 标题前图片 */
+img.aut2-5 {
+    width: 2.5em;
+}
+
+
+
+/* 标题前图片 */
+img.aut3 {
+    width: 3em;
+}
+
+/* 标题前图片 */
+img.aut4 {
+    width: 4em;
+}
+
+
+
+/* 正文 */
+p.bodytext {
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+/* 正文 */
+p.bodytext1 {
+	font-weight: bold;
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+/* 正文距下2em */
+p.bodytext-bottom2em {
+	margin-top: 2em;
+	
+	margin-bottom: 1.5em;
+
+	text-align:center;
+	font-weight: bold;
+}
+
+
+/* 造字 */
+img.paralog {
+	margin-left: -0.2em;
+	margin-right: -0.2em;
+	height: 1.15em;
+	vertical-align: -0.22em;
+}
+
+/* 正文无首行缩进 */
+p.bodytext-1 {
+
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	margin-left:0em;
+}
+/* 引用20%边居中 */
+p.content-text-20{
+
+    text-indent: 0em;
+    duokan-text-indent: 0em;
+	margin:0.5em 20%;
+}
+
+
+/* 正文2em */
+p.bodytext-3 {
+	margin-left:2em;
+}
+
+
+/* 正文20 */
+p.bodytext-20 {
+	margin-left:20%;
+}
+
+
+/* 横线 */
+p.hengxian {
+	border-bottom: 2px solid #000000;
+	
+}
+
+
+
+
+/* 正文居中 */
+p.bodytext-center {
+
+	text-align:center;
+}
+
+/* 引用1（首行缩进） */
+p.content-yinyong-0{
+	font-family:kaiti;
+    text-indent: 0em;
+  
+
+}
+
+/* 引用1（首行缩进） */
+p.content-yinyong-1{
+	font-family:kaiti;
+    text-indent: 2em;
+  
+
+}
+/* 引用2（无首行缩进） */
+p.content-yinyong-2{
+	font-family:kaiti;
+	 text-indent: 4em;
+}
+/* 诗居左 */
+p.shi-l {
+
+	margin-left: 2em;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+/* 诗居中 */
+p.shi-r {
+	margin-left: 0em;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	text-align:center;
+	margin-top:2em;
+}
+
+
+
+
+/* 诗居中 */
+p.shi-r-1 {
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	text-align:center;
+}
+
+
+/* 居中-下横线 */
+p.text-center-xian {
+	text-align:center;
+	margin-bottom:2em;
+	border-bottom: 4px solid #000000;
+	padding: 0.3em;
+}
+
+
+
+
+
+/* 图片40% */
+img.chapter-before-img40 {
+	width:120px;
+	float:right;
+	margin-left:0.3em;
+	margin-bottom:0.3em;
+}
+
+/* 落款 */
+p.bodytext-right-1 {
+		font-family:kaiti;
+	text-align:right;
+}
+
+/* 落款 */
+p.bodytext-right {
+	text-align:right;
+}
+
+/* 距左2em */
+p.bodytext-sg{
+
+    margin-left: 2em;
+}
+
+
+/* 居中 */
+p.bodytext-center1{
+
+	text-align:center;
+}
+
+
+
+
+
+/* 部分加粗 */
+span.jiacu {
+	font-weight:bold;
+}
+/* 联系 */
+span.lianxi {
+	font-weight:bold;
+	text-shadow: 0.07em 0.07em 0.07em #a5a5a5;
+}
+
+/* 部分蓝色 */
+span.fontblue {
+	color:#04a4d9;
+} 
+
+/* 部分楷体 */
+span.kaiti{
+	font-family:kaiti;
+    
+  
+
+}
+
+/* 区域蓝色 */
+div.blue {
+	color:#04a4d9;
+} 
+
+/* 默认左绕排60 */
+div.float-left60 {
+    width: 60%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认左绕排50 */
+div.float-left50 {
+    width: 50%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+
+/* 默认左绕排30 */
+div.float-left30 {
+    width: 30%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认左绕排35 */
+div.float-left35 {
+    width: 35%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+/* 默认左绕排40 */
+div.float-left40 {
+    width: 40%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+
+
+
+/* 默认左绕排20 */
+div.float-left20 {
+    width: 20%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认左绕排15 */
+div.float-left15 {
+    width: 15%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+
+/* 默认右绕排 */
+div.float-right40 {
+    width: 40%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认右绕排35 */
+div.float-right35 {
+    width: 35%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认右绕排30 */
+div.float-right30 {
+    width: 30%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认右绕排25 */
+div.float-right25 {
+    width: 25%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+/* 默认右绕排15 */
+div.float-right15 {
+    width: 15%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认右绕排10 */
+div.float-right10 {
+    width: 10%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+
+/* 默认右绕排20 */
+div.float-right20 {
+    width: 20%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认右绕排50 */
+div.float-right50 {
+    width: 50%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
+
+/* 默认右绕排45 */
+div.float-right45 {
+    width: 45%;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+/* 默认居中 */
+div.float-center {
+    margin: 1em auto 0em auto;
+    text-align: center;
+}
+
+
+
+
+/* 图片100 */
+img.image100 {
+    width: 100%;
+}
+/* 图片80 */
+img.image80 {
+    width: 80%;
+}
+
+/* 图片50 */
+img.image50 {
+    width: 50%;
+}
+
+
+
+/* 图片60 */
+img.image60 {
+    width: 60%;
+}
+/* 图片70 */
+img.image70 {
+    width: 70%;
+}
+
+/* 图片40 */
+img.image40 {
+    width: 40%;
+}
+
+/* 图片35 */
+img.image35 {
+    width: 35%;
+}
+
+/* 图片20 */
+img.image20 {
+    width: 20%;
+}
+
+/* 章前正文边框 */
+div.preface-border {
+	border-style: solid none solid none;
+	border-width: 4px;
+	border-color: #6295a6; 
+	padding: 1em 0em 1em 0em;
+	margin-top:1em;
+}
+/* 章前正文 */
+div.preface-body-text {
+	background-color: #cfe0e5;
+	padding: 0.5em;
+}
+
+
+/* 底色框 */
+span.kuang-2 {
+	padding:0.2em 0.5em 0.2em 0.5em;
+	background:#ffe797;
+
+}
+
+
+
+/* 章前编者 */
+p.bianzhe {
+	duokan-text-indent: 2em;
+	text-indent: 2em;
+	margin-left: 4em;
+	margin-bottom: 4em;
+}
+/* 图注 */
+p.tuzhu {
+	text-align:center;
+	text-size:4px;
+}
+/* 图注1 */
+p.tuzhu1 {
+	text-align:center;
+	text-size:1px;
+}
+
+/* 图注-居左 */
+p.tuzhu-left {
+	text-align:left;
+	text-size:4px;
+	text-indent: 0em;
+}
+
+
+
+/* 图注-居右 */
+p.tuzhu-right {
+	text-align:right;
+	text-size:2px;
+}
+
+
+
+
+/* 小标 */
+p.xiaobiao {
+	text-align:right;
+	padding-right:1em;
+	width:5em;
+	margin-top:2em;
+	border-radius:0em 2em 2em 0em;
+	background-color:#04a4d9;
+}
+
+
+
+/* 并列图表格样式 */
+table.duokan-gallery-image {
+	width: 100%;
+	margin: 1em auto 1em auto;
+}
+
+
+/* 并列图表格样式100 */
+table.duokan-gallery-image100 {
+	width: 100%;
+	margin: 1em auto 1em auto;
+}
+
+/* 并列图表格样式80 */
+table.duokan-gallery-image80 {
+	width: 80%;
+	margin: 1em auto 1em auto;
+}
+
+
+
+/* 并列图表格样式-60 */
+table.duokan-gallery-image-60 {
+	width: 60%;
+	margin: 1em auto 1em auto;
+}
+
+
+/* 并列图单元格样式 */
+td.duokan-gallery-cell{
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+
+
+/* 并列图单元格样式 */
+td.duokan-gallery-cell-1{
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+	border:solid 3px #ffffff;
+	border-style:none solid none solid;
+}
+
+
+
+
+
+
+/* 框 */
+div.kuang {
+	border: solid 1px #000000;
+ 	border-width: 1px;
+ 	border-radius: 0.8em 0.8em 0em 0em;
+ 	padding:0.5em;
+	margin:1em auto 1em auto;
+}
+
+
+/* 框-1 */
+div.kuang-1 {
+	border: dashed 1px #000000;
+ 	border-width: 1px;
+ 	border-radius: 0.8em 0.8em 0em 0em;
+ 	padding:0.5em;
+	margin:1em auto 1em auto;
+}
+
+
+/* 小框 */
+div.kuang-2 {
+	border-bottom: 2px dotted #000000;
+	border-top: 2px dotted #000000;
+	padding:0.5em;
+	margin:1em auto 1.5em auto;
+}
+
+
+/* 小框 */
+span.kuang-3 {
+	border: solid 1px #000000;
+}
+
+
+
+
+/* 下划线 */
+span.underline {
+text-decoration:underline;
+}
+
+
+
+
+/*阴影效果文本*/
+div.radius {
+ border-radius: 1em;
+ border: 2px solid #000000;
+ background-color: #ffffff;
+ padding: 0.5em;
+}
+
+
+/* 章前引文域 */
+div.text-yw-leftdiv {
+	padding:0.1em auto;
+	border-top: 1px dashed #000000;
+	border-bottom: 1px dashed #000000;
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+	margin-bottom:1.5em;
+}
+
+
+/* 居中实线 */
+div.shixian {
+	padding:0.1em auto;
+	border-bottom: 2px solid #000000;
+}
+
+
+/* 居中虚线 */
+hr.xuxian {
+	padding:0.1em auto;
+	border-bottom: 2px dashed #000000;
+}
+
+
+
+
+
+
+
+
+
+/* 格内图样式 */
+div.duokan-in-cell {
+	width: 100%;
+}
+
+/* 默认图片样式 */
+img.duokan-image {
+    width: 100%;
+}
+
+  td.middle-4{
+	text-align:right;
+	width:70%;
+  }
+
+
+
+
+
+
+table.table-wx {
+	width: 100%;
+	margin: 1em auto 2em auto;
+	padding:0.1em auto;
+	border-top: 1px dashed #000000;
+	border-bottom: 1px dashed #000000;
+
+}
+
+
+
+table.table-wx-1 {
+	width: 100%;
+	margin: 0.5em auto 0.5em auto;
+	
+
+}
+
+tr.middle-3 {
+text-align:center;
+	
+}
+
+
+
+  img.default{
+	width:90%;
+  }
+
+
+td.middle {
+	width: 25%;
+	vertical-align: middle;
+	
+}
+
+td.middle-1 {
+	width: 20%;
+}
+
+
+
+td.middle-2 {
+	padding-right:1em;
+	vertical-align: middle;
+	
+}
