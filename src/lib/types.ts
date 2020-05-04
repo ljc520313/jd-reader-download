@@ -8,7 +8,8 @@ export interface Config {
     BASE_DIR_HTML: string,
     BASE_DIR_RES: string,
     logger: Log,
-    delay: number
+    delay: number,
+    readType: number // 阅读类型, 1: 试读, 3: 畅读
 }
 export interface CacheData<T> {
     via: "local" | "network"

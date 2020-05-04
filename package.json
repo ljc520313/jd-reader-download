@@ -33,8 +33,10 @@
   "config": {
     "delay": 3,
     "cookie": "bg_color=gray; ",
+    "readType": 3,
     "bookIds": [
-      "30597590"
+      "30597590",
+      "30481531"
     ]
   }
 }

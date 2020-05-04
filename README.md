@@ -9,6 +9,7 @@
 ![request](./res/request.png), 将值全部配置到项目根目录的 `package.json` 文件的 `config` 配置节.
 3. 项目根目录打开终端/控制台执行 `npm run download`
 4. `logs/` 目录下有下载进度日志, 下载内容会保存到 `books/` 目录.
+5. 特别注意的是  `package.json > config > readType`, 如果是试读下载, 值改成1; 如果是畅读会员下载, 值改成3.
 
 ## 阅读
 
