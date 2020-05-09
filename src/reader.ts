@@ -5,7 +5,7 @@ import { BookInfo } from "./lib/types";
 
 const BASE_DIR = "/jdreader";
 const app = express();
-const PORT: Number = parseInt(process.env.PORT) || 20001;
+const PORT: Number = parseInt(process.env.PORT) || 3011;
 
 app.use(`${BASE_DIR}`, express.static("./reader/dist/"));
 app.use(`${BASE_DIR}/books`, express.static("./books/"));

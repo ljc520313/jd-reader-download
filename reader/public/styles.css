@@ -1,12 +1,15 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
+
 ul {
-  margin-left: 1em;
+    margin-left: 1em;
 }
-ul > li {
-  margin-left: 1em;;
+
+ul>li {
+    margin-left: 1em;
+    ;
 }
 
 #app {
@@ -14,45 +17,55 @@ ul > li {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-  .book-category {
+
+.book-category {
     cursor: pointer;
     list-style-type: none;
-  }
-  .book-category li {
+}
+
+.book-category li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-  }
-  .overscroll {
+}
+
+.overscroll {
     overflow: scroll;
-  }
-  img.center {
+}
+
+img.center {
     max-width: 90%;
     display: inline-block;
     margin: 10px auto;
-  }
-  ul li.selected >div {
-    color: yellow;
-  }
-.books-list ol{
-  margin-left: 2em;
 }
-  .functions{
+
+ul li.selected>div {
+    color: yellow;
+}
+
+.books-list ol {
+    margin-left: 2em;
+}
+
+.functions {
     position: fixed;
     z-index: 3;
     left: 10px;
     bottom: 10px;
-  }
-  .functions ul {
+}
+
+.functions ul {
     margin: 0;
     list-style: none;
     opacity: .8;
-  }
-  .functions ul li {
+}
+
+.functions ul li {
     margin: 10px 5px;
     float: left;
-  }
-  .table-of-contencts{
+}
+
+.table-of-contencts {
     position: fixed;
     z-index: 5;
     background-color: rgba(0, 150, 255, .9);
@@ -63,44 +76,26 @@ ul > li {
     border-radius: 5px;
     margin-top: 0;
     box-shadow: #eee 5px 5px 5px;
-  }
-  .chapter-content{
+}
+
+.chapter-content {
     overflow: hidden;
-  }
-  .chapter-content code {
+}
+
+.chapter-content code {
     white-space: pre;
     overflow: scroll;
-  }
-  img{
+}
+
+img {
     max-width: 100%;
-  }
-  /* .image20{
-    display: block;
-    width: 20%;
-    margin: 0 auto;
-  }
-  .image40{
-    display: block;
-    width: 40%;
-    margin: 0 auto;
-  }
-  .image60{
-    display: block;
-    width: 60%;
-    margin: 0 auto;
+}
 
-  }
-  .image80{
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  } */
-
-  ol.breadcrumb{
+ol.breadcrumb {
     width: 100%;
     margin-bottom: 5px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  font-size: .8em;
-  }
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .8em;
+}
