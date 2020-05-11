@@ -41,5 +41,5 @@ app.get(`${BASE_DIR}/api/books`, (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`访问 http://localhost:${PORT}/reader 阅读电子书`);
+    console.log(`访问 http://localhost:${PORT}${BASE_DIR} 阅读电子书`);
 });
